@@ -1,0 +1,69 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\ISHAAN\coursera-test> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index .html
+
+PS C:\Users\ISHAAN\coursera-test> git add .
+PS C:\Users\ISHAAN\coursera-test> git commit -m"Updated boy"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ISHAAN@DESKTOP-66CV9ST.(none)')
+PS C:\Users\ISHAAN\coursera-test> git push
+To https://github.com/rjvedant/coursera-test
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/rjvedant/coursera-test'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\ISHAAN\coursera-test> git config --global user.email "you@example.com"
+PS C:\Users\ISHAAN\coursera-test> git config --global user.name "Your Name"
+PS C:\Users\ISHAAN\coursera-test> git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.19 KiB | 42.00 KiB/s, done.
+From https://github.com/rjvedant/coursera-test
+ * branch            main       -> FETCH_HEAD
+   f6e5582..b5dbbc8  main       -> origin/main
+Updating f6e5582..b5dbbc8
+Fast-forward
+PS C:\Users\ISHAAN\coursera-test> git push origin main
+Everything up-to-date
+PS C:\Users\ISHAAN\coursera-test> git push
+Everything up-to-date
+PS C:\Users\ISHAAN\coursera-test> git add .
+PS C:\Users\ISHAAN\coursera-test> git commit -m "Add a meaningful commit message"
+[main 7c6c91c] Add a meaningful commit message
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index .html
+PS C:\Users\ISHAAN\coursera-test> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 291 bytes | 145.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rjvedant/coursera-test
+   b5dbbc8..7c6c91c  main -> main
+PS C:\Users\ISHAAN\coursera-test>
