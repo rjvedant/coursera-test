@@ -1,6 +1,6 @@
 (function () {
 
-    var names = ["Vedant", "Yana", "Heena", "Jyoti", "Aditi", "Vardaan", "Vashishtha", "Anamika", "Nupur", "Laura"];
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     
     for (var i = 0; i < names.length; i++) {
     
