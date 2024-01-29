@@ -7,7 +7,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #lightyellow;
   border-radius: 0;
   border: 0;
 }
@@ -24,7 +24,7 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #White;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -54,7 +54,7 @@ body {
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #white;
 }
 #nav-list a span {
   font-size: 1.8em;
